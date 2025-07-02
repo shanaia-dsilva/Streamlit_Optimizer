@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 streamlit
 pandas
 sqlalchemy
@@ -6,4 +7,14 @@ mysql-connector-python
 plotly
 pydeck
 numpy
+=======
+streamlit
+pandas
+sqlalchemy
+pymysql
+mysql-connector-python
+plotly
+pydeck
+numpy
+>>>>>>> d3f6fb7d51a260ae1366c1d54cb2e1143dc7d9d3
 python-dotenv 

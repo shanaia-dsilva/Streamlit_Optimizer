@@ -1,4 +1,10 @@
+<<<<<<< HEAD
 driver,pickup_point,lat,lon,original_dead_km,optimized_dead_km,swap_chain,deviation
 Alice,Point A,12.9716,77.5946,10.5,8.2,Chain1,0.3
 Bob,Point B,12.9352,77.6245,12.0,9.8,Chain1,0.5
+=======
+driver,pickup_point,lat,lon,original_dead_km,optimized_dead_km,swap_chain,deviation
+Alice,Point A,12.9716,77.5946,10.5,8.2,Chain1,0.3
+Bob,Point B,12.9352,77.6245,12.0,9.8,Chain1,0.5
+>>>>>>> d3f6fb7d51a260ae1366c1d54cb2e1143dc7d9d3
 Charlie,Point C,12.9279,77.6271,8.7,7.1,Chain2,0.2 

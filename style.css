@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 body, .stApp {
     background-color: ivory !important;
     color: black !important;
@@ -73,4 +74,81 @@ section[data-testid="stSidebar"] {
 
 .stTable tbody tr:nth-child(even) {
     background: #f5f5dc !important;
+=======
+body, .stApp {
+    background-color: ivory !important;
+    color: black !important;
+    font-family: 'Segoe UI', Arial, sans-serif;
+}
+
+section[data-testid="stSidebar"] {
+    background-color: beige !important;
+    border-right: 1px solid lightgray;
+}
+
+.stButton > button, .stDownloadButton > button {
+    background-color: #e5b79e !important;
+    color: black !important;
+    border: 1px solid lightgray !important;
+    border-radius: 6px;
+    transition: background 0.2s;
+}
+
+.stButton > button:hover, .stDownloadButton > button:hover {
+    background-color: rgb(218, 185, 144) !important;
+}
+
+.stButton.primary > button, .stDownloadButton.primary > button {
+    background-color: #e2f8e4 !important;
+    color: black !important;
+}
+
+.stButton.primary > button:hover, .stDownloadButton.primary > button:hover {
+    background-color: rgb(223, 223, 190) !important;
+}
+
+.stDataFrame, .stTable {
+    border: 1px solid #e5b79e !important;
+    background-color: beige !important;
+    color: black !important;
+}
+
+.stDataFrame th, .stDataFrame td, .stTable th, .stTable td {
+    border: 1px solid #e5b79e !important;
+    color: black !important;
+}
+
+.stMarkdown p, .stMarkdown {
+    color: rgb(138, 112, 75) !important;
+    font-size: 1.05rem;
+}
+
+.stCard, .summary-card {
+    background: beige !important;
+    border: 1px solid lightgray !important;
+    border-radius: 10px;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.03);
+}
+
+.stAlert {
+    background: #e2f8e4 !important;
+    color: black !important;
+    border: 1px solid #e5b79e !important;
+}
+
+.stTextInput > div > input, .stSelectbox > div > div, .stTextArea > div > textarea {
+    background: #fff8ee !important;
+    border: 1px solid #e5b79e !important;
+    color: black !important;
+}
+
+.stTable thead tr {
+    background: #e2f8e4 !important;
+}
+
+.stTable tbody tr:nth-child(even) {
+    background: #f5f5dc !important;
+>>>>>>> d3f6fb7d51a260ae1366c1d54cb2e1143dc7d9d3
 } 
